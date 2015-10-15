@@ -1,6 +1,7 @@
 public class Job implements Runnable {
   private int jobNumber;
   
+  // attribute holding the current number of the job
   Job(int jobNumber){
     this.jobNumber = jobNumber;
   }
